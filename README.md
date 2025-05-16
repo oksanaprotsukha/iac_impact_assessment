@@ -67,7 +67,6 @@ IAC Database contains the technical information about more than 22,000 industria
 ### Acknowledgements
 
 Annie Adams, Teaching Assistant for EDS-213 - Databases</br>
-Professor for EDS-240 - Data Visualization & Communication</br>
 Julien Brun, Professor for EDS-213 - Databases</br>
 Greg Janée, Professor for EDS-213 - Databases</br>
 Bren School of Environmental Science & Management</br>
