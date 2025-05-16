@@ -39,7 +39,8 @@ conda env create -f environment.yml
 ├── LICENSE
 ├── README.md
 ├── database
-│   └── iac.duckdb
+│   ├── iac.duckdb
+│   └── iac_integrated_view.sql
 ├── environment.txt
 ├── environment.yml
 ├── iac.ipynb
