@@ -1,6 +1,6 @@
-# Realized vs Missed Energy Savings across IAC Energy Audits.
+# Implemented vs Not Implemented IAC Energy Recommendations By Type.
 
-<img src="realized_vs_not_realized_energy_savings.png" width="400"/>
+<img src="implementation_rates.png.png" width="400"/>
 
 ### Table Of Contents
 
@@ -13,7 +13,7 @@
 7. [License](#license)
 
 ## Objective
-This notebook compares realized and missed energy savings rates from Industrial Assessment Center (IAC) recommendations.
+This notebook compares implementation rates of Industrial Assessment Center (IAC) recommendations by recommendation type.
 
 ## Installation
 
@@ -44,7 +44,7 @@ conda env create -f environment.yml
 ├── environment.txt
 ├── environment.yml
 ├── iac.ipynb
-└── realized_vs_not_realized_energy_savings.png
+└── implementation_rates.png
 ```
 
 ## Data
