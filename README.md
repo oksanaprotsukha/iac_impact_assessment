@@ -31,7 +31,7 @@ All dependencies are listed in the `environment.yml` file. To create a new envir
 conda env create -f environment.yml
 ```
 
-## File Structure
+## Repository Structure
 
 [Back to top](#table-of-contents) <br>
 
