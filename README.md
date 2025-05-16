@@ -6,7 +6,7 @@
 
 1. [Objective](#objective)
 2. [Installation](#installation)
-3. [Repository Structure](#file-structure)
+3. [Repository Structure](#repository-structure)
 4. [Data](#data)
 5. [Usage](#usage)
 6. [Contribute](#contribute)
@@ -19,7 +19,7 @@ This notebook compares implementation rates of Industrial Assessment Center (IAC
 
 [Back to top](#table-of-contents) <br>
 
-**Repository**: [IAC Energy Savings Impact Assessment](https://github.com/oksanaprotsukha/iac_impact_assessment)
+**Repository**: [IAC Energy Savings Impact Assessmgit ent](https://github.com/oksanaprotsukha/iac_impact_assessment)
 
 The analysis is written in Python and SQL. The following tools are required to rerun the analysis: <br>
 - Python-ready environment (e.g. `VSCode`) <br>
