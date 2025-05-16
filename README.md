@@ -1,6 +1,6 @@
 # Implemented vs Not Implemented IAC Energy Recommendations By Type.
 
-<img src="implementation_rates.png.png" width="400"/>
+<img src="implementation_rates.png" width="400"/>
 
 ### Table Of Contents
 
