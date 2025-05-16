@@ -1,0 +1,13 @@
+name: iac
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas=1.5.3
+  - numpy=1.23.5
+  - plotly=5.10.0
+  - jupyter-dash
+  - matplotlib
+  - seaborn
+  - duckdb

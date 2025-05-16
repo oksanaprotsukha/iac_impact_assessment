@@ -6,14 +6,14 @@
 
 1. [Objective](#objective)
 2. [Installation](#installation)
-3. [File Structure](#file-structure)
+3. [Repository Structure](#file-structure)
 4. [Data](#data)
 5. [Usage](#usage)
 6. [Contribute](#contribute)
 7. [License](#license)
 
 ## Objective
-This notebook visualizes the realized energy savings rates from Industrial Assessment Center (IAC) recommendations.
+This notebook compares realized and missed energy savings rates from Industrial Assessment Center (IAC) recommendations.
 
 ## Installation
 
@@ -23,7 +23,13 @@ This notebook visualizes the realized energy savings rates from Industrial Asses
 
 The analysis is written in Python and SQL. The following tools are required to rerun the analysis: <br>
 - Python-ready environment (e.g. `VSCode`) <br>
-- DuckDB database file <br>
+- DuckDB database file (included in the repo) <br>
+
+All dependencies are listed in the `environment.yml` file. To create a new environment, run the following command in your terminal:
+
+```bash
+conda env create -f environment.yml
+```
 
 ## File Structure
 
@@ -34,6 +40,8 @@ The analysis is written in Python and SQL. The following tools are required to r
 ├── README.md
 ├── database
 │   └── iac.duckdb
+├── environment.txt
+├── environment.yml
 ├── iac.ipynb
 └── realized_vs_not_realized_energy_savings.png
 ```
@@ -42,7 +50,9 @@ The analysis is written in Python and SQL. The following tools are required to r
 
 [Back to top](#table-of-contents) <br>
 
-The analysis is based on [Industrial Energy Assessment Database](https://iac.university/download).
+The analysis is based on the [Industrial Energy Assessment Database](https://iac.university/download).
+
+IAC Database contains the technical information about more than 22,000 industrial energy audits done by all the industrial assessment centers as of May 2025. This includes information on the type of facility assessed (size, industry, energy usage, etc.) and details of resulting recommendations (type, energy & dollars savings etc.). Technical details on the database and the description of all data points areavailable on the IAC website: [IAC documentation](https://iac.university/#database)
 
 ## Usage
 
@@ -53,4 +63,14 @@ The analysis is based on [Industrial Energy Assessment Database](https://iac.uni
 [Back to top](#table-of-contents)
 
 [MIT license](./LICENSE)
+
+### Acknowledgements
+
+Annie Adams, Teaching Assistant for EDS-213 - Databases</br>
+Professor for EDS-240 - Data Visualization & Communication</br>
+Julien Brun, Professor for EDS-213 - Databases</br>
+Greg Janée, Professor for EDS-213 - Databases</br>
+Bren School of Environmental Science & Management</br>
+University of California, Santa Barbara
+
 
